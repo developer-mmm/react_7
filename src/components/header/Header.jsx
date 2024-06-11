@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import "../header/Header.css";
 import { useEffect, useState } from "react";
 
+
+
 const themeFromLocalS = () => {
   return localStorage.getItem("theme") || "retro";
 };
@@ -24,8 +26,8 @@ function Header() {
       <nav className="flex justify-between items-center">
         <div className="left">
           <NavLink to="/">
-           {/* <img src="./logo-no-background.png" alt="Logo" /> */}
-         <p className="text-blue-600 p-4">LOGO</p>
+            {/* <img src="./logo-no-background.png" alt="Logo" /> */}
+            <p className="text-blue-600 p-4">LOGO</p>
           </NavLink>
         </div>
         <div className="center flex gap-10">
@@ -40,7 +42,16 @@ function Header() {
               <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
-        </div>
+          <div className="indicator">
+           <span className="indicator-item badge badge-secondary">0</span>
+           <button className="btn">inbox</button>
+          </div>
+          <div>
+        <button onClick={toggleTheme}>
+          Toggle Theme <FaShoppingCart />
+        </button>
+      </div>
+        </div>  
         <div className="right">
           <label className="swap swap-rotate">
             <input
