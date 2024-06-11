@@ -6,9 +6,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 import ProtectedRoutes from "./components/ProtectedRoutes";
-import Register from "./pages/Register";
+// import Register from "./pages/Register";
 
 // context
 import { useContext } from "react";

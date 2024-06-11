@@ -3,10 +3,10 @@ function about() {
     <section className="text-gray-600 body-font ">
       <div className="container px-5 py-6 mx-auto mb-8">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 uppercase text-white">
             The Best market
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-white ">
+          <p className="lg:w-2/3 mx-auto text-xl  leading-relaxed text-blue-600 ">
             We can solve any problems quickly and easily
           </p>
         </div>
@@ -19,6 +19,16 @@ function about() {
               <p className="leading-relaxed  text-white">
                 {" "}
                 We have solved more than 10,000 problems so far ✅
+              </p>
+            </div>
+          </div>
+          <div className="p-4 md:w-1/4 sm:w-1/2 w-full ">
+            <div className="border-2 border-gray-200 px-6 py-8 rounded-lg">
+              <p className="pb-4 text-white">🎁 GIFTS 🎁</p>
+
+              <p className="leading-relaxed  text-white">
+                {" "}
+                we have 💯% discount for customers every month 🎁
               </p>
             </div>
           </div>

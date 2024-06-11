@@ -43,13 +43,10 @@ function Header() {
             </li>
           </ul>
           <div className="indicator">
-           <span className="indicator-item badge badge-secondary">0</span>
-           <button className="btn">inbox</button>
+           <span className="indicator-item badge badge-secondary">10</span>
+           <button className="btn uppercase -mt-2 hover:text-blue-500"> Add To Card</button>
           </div>
           <div>
-        <button onClick={toggleTheme}>
-          Toggle Theme <FaShoppingCart />
-        </button>
       </div>
         </div>  
         <div className="right">

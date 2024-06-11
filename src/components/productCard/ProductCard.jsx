@@ -18,7 +18,7 @@ function ProductCard({ product }) {
         </p>
         <div className="flex justify-between items-center mb-4">
           <span className="text-xl font-bold">${price}</span>
-          <NavLink to={`/product/${id}`} className="btn">
+          <NavLink to={`/product/${id}`} className="btn uppercase text-blue-600 hover:bg-white">
             Add to Cart
           </NavLink>
         </div>
