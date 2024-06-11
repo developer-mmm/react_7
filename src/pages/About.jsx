@@ -18,7 +18,7 @@ function about() {
             <div className="border-2 border-gray-200 px-6 py-8 rounded-lg">
               <p className="pb-4">✅</p>
 
-              <p className="leading-relaxed  text-green-600">
+              <p className="leading-relaxed  text-blue-600">
                 {" "}
                 We have solved more than 10,000 problems so far ✅
               </p>
@@ -26,7 +26,7 @@ function about() {
           </div>
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full ">
             <div className="border-2 border-gray-200 px-6 py-8 rounded-lg">
-              <p className="pb-4 text-white">🎁 GIFTS 🎁</p>
+              <p className="pb-4 text-yellow-400">🎁 GIFTS 🎁</p>
 
               <p className="leading-relaxed  text-white">
                 {" "}
@@ -44,8 +44,8 @@ function about() {
           </div>
         </div>
       </div>
-      <p className="text-2xl leading-relaxed text-blue-600 text-center">
-        We are glad to choose from your choice
+      <p className="text-2xl leading-relaxed text-purple-600 text-center">
+      join us and get a gift 🎁
       </p>
     </section>
   );

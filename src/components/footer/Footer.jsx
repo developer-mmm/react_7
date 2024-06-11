@@ -52,7 +52,7 @@ function Footer() {
         </div>
       </nav>
       <aside>
-        <button className="btn btn-primary uppercase">join us</button>
+        <button className="btn btn-primary uppercase text-white">join us</button>
       </aside>
     </footer>
   );
