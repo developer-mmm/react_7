@@ -27,7 +27,8 @@ function Header() {
         <div className="left">
           <NavLink to="/">
             {/* <img src="./logo-no-background.png" alt="Logo" /> */}
-            <p className="text-blue-600 p-4">LOGO</p>
+            {/* <p className="text-blue-600 p-4"><img src="" alt="" /></p> */}
+            <p className="text-blue-600 text-xl ">LOGO</p>
           </NavLink>
         </div>
         <div className="center flex gap-10">
@@ -44,7 +45,7 @@ function Header() {
           </ul>
           <div className="indicator">
            <span className="indicator-item badge badge-secondary">10</span>
-           <button className="btn uppercase -mt-2 hover:text-blue-500"> Add To Card</button>
+           <button className="btn uppercase -mt-2 text-xl hover:text-blue-500"> Add To Card</button>
           </div>
           <div>
       </div>
